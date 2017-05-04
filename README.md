@@ -12,7 +12,7 @@ wget http://docs.aws.amazon.com/amazondynamodb/latest/gettingstartedguide/Gettin
 tar  xfz   ~/dynamodb_local_latest.tar.gz
 java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb -inMemory
 
-//download php
+//download php. this will be needed for the require statements in the php files.
 sudo apt-get install php
 curl -sS https://getcomposer.org/installer | php
 php composer.phar require aws/aws-sdk-php	
