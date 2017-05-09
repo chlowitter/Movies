@@ -17,7 +17,4 @@ sudo apt-get install php
 curl -sS https://getcomposer.org/installer | php
 php composer.phar require aws/aws-sdk-php	
 
-//go to link and follow directions to download data for the movies database:
-//http://docs.aws.amazon.com/amazondynamodb/latest/gettingstartedguide/GettingStarted.PHP.02.html
-
 //use php code files to create, insert data, and query dynamodb
