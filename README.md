@@ -1,5 +1,12 @@
 1. clone the repsitory
 2. run the setup script and add your aws credentials with us-east-1 as the region
+
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+./setupscript
+
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
 3. run these php files to setup the table and and load in the data
 
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
