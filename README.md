@@ -11,6 +11,7 @@ php MoviesLoadData.php
 
 ''''''''
 php MoviesQuery01.php 
+
 php MoviesQuery02.php
 ''''''''
 
@@ -18,11 +19,17 @@ php MoviesQuery02.php
 
 ''''''''
 php MoviesItemOps01.php
+
 php MoviesItemOps02.php
+
 php MoviesItemOps03.php
+
 php MoviesItemOps04.php
+
 php MoviesItemOps05.php
+
 php MoviesItemOps06.php
+
 '''''''''
 
 6. This files scans the data based on the parameters you set. It is currently set to pull all movies created between 1950 and 1959.
