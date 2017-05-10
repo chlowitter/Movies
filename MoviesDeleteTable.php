@@ -6,7 +6,7 @@ date_default_timezone_set('UTC');
 use Aws\DynamoDb\Exception\DynamoDbException;
 
 $sdk = new Aws\Sdk([
-    'region'   => 'us-west-2',
+    'region'   => 'us-east-1',
     'version'  => 'latest'
 ]);
 
