@@ -9,6 +9,8 @@ java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb -i
 sudo apt-get install php
 curl -sS https://getcomposer.org/installer | php
 php composer.phar require aws/aws-sdk-php	 
+sudo apt-get install apache 2
+sudo /etc/init.d/apache2 start
 sudo apt-get install awscli
 aws configure
 
