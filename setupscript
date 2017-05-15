@@ -8,7 +8,7 @@ java -version
 wget https://s3-us-west-2.amazonaws.com/dynamodb-local/dynamodb_local_latest.tar.gz
 tar xfz dynamodb_local_latest.tar.gz
 java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb -inMemory &
-sudo apt-get install php unzip -y
+sudo apt-get install php libapache2-mod-php7.0 unzip -y
 curl -sS https://getcomposer.org/installer | php
 php composer.phar require aws/aws-sdk-php	 
 sudo apt-get install apache2 -y
