@@ -7,7 +7,7 @@ sudo apt-get -y install oracle-java8-installer
 java -version 
 wget https://s3-us-west-2.amazonaws.com/dynamodb-local/dynamodb_local_latest.tar.gz
 tar xfz dynamodb_local_latest.tar.gz
-java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb -inMemory 
+java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb -inMemory &
 sudo apt-get install php unzip -y
 curl -sS https://getcomposer.org/installer | php
 php composer.phar require aws/aws-sdk-php	 
