@@ -3,6 +3,7 @@
 3. move cloned files to the /var/www/html folder
 
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
 mkdir movies
 
 chmod 700 setupscript
@@ -10,6 +11,7 @@ chmod 700 setupscript
 ./setupscript
 
 cp -a ~/Movies/. /var/www/html
+
 
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
