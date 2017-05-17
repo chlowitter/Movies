@@ -6,11 +6,11 @@
 
 mkdir movies
 
-chmod 700 setupscript
+sudo chmod 700 setupscript
 
 ./setupscript
 
-cp -a ~/Movies/. /var/www/html
+sudo cp -a ~/Movies/. /var/www/html
 
 
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
