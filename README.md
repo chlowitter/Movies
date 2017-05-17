@@ -5,7 +5,6 @@
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 mkdir movies
 chmod 700 setupscript
-
 ./setupscript
 cp -a ~/Movies/. /var/www/html
 
