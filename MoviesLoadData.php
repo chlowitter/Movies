@@ -9,6 +9,7 @@ use Aws\DynamoDb\Marshaler;
 $sdk = new Aws\Sdk([
     'region'   => 'us-east-1',
     'version'  => 'latest'
+    'endpoint' => 'http://localhost:8000',
 ]);
 
 $dynamodb = $sdk->createDynamoDb();
